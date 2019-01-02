@@ -19,27 +19,34 @@ date_format = "January 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
-  company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
-  date_end = ""
+  title = "Software Engineer"
+  company = "Infrrd"
+  company_url = "https://infrrd.ai/"
+  location = "Bengaluru, India"
+  date_start = "2016-09-16"
+  date_end = "2018-07-27"
   description = """
-  Responsibilities include:
-  
-  * Analysing
-  * Modelling
-  * Deploying
+    • Worked on Document classification product using NLP
+    • Responsible for designing & developing major components 
+      using Topic Modelling
+    • Responsible for designing and developing REST API’s, Custom 
+      Spellchecker, Image Processing, Feature extraction
+    • Built artificially intelligent cloud based real-time scalable 
+      application using Apache Storm, Apache Kafka
   """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
-  company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  title = "Trainee Software Engineer"
+  company = "Raremile Technologies Pvt. Ltd."
+  company_url = "http://raremile.com/"
+  location = "Bengaluru, India"
+  date_start = "2016-07-04"
+  date_end = "2016-09-15"
+  description = """
+    • Worked on B2B enterprise project that offers image 
+      processing services
+    • Responsible for designing and developing implementations 
+      for several image processing algorithms using OpenCV
+  """
 
 +++

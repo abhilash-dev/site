@@ -53,7 +53,7 @@ enableGitInfo = false
 
   # Your details.
   name = "Abhilash Sulibela"
-  role = "Master's Student at University of Texas at Arlington"
+  role = "MS in Computer Science at University of Texas at Arlington"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -194,26 +194,32 @@ enableGitInfo = false
   #   The language can be edited below.
   #   For multilingual sites, `publication_types` can be copied to each language section at the end of this file and
   #   translated.
-  publication_types = [
-    'Uncategorized',  # 0
-    'Conference paper',  # 1
-    'Journal article',  # 2
-    'Manuscript',  # 3
-    'Report',  # 4
-    'Book',  # 5
-    'Book section'  # 6
-  ]
 
-  # Configuration of talk pages.
-  [params.talks]
-    # Show talk time?
-    time = true
+  # Uncomment the following lines to get back the following sections in the site (Publications, talks) 
+  # Start Comment
 
-  # Configuration of publication pages.
-  [params.publications]
-    # Date format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
-    #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
-    date_format = "January, 2006"
+  # publication_types = [
+  #   'Uncategorized',  # 0
+  #   'Conference paper',  # 1
+  #   'Journal article',  # 2
+  #   'Manuscript',  # 3
+  #   'Report',  # 4
+  #   'Book',  # 5
+  #   'Book section'  # 6
+  # ]
+
+  # # Configuration of talk pages.
+  # [params.talks]
+  #   # Show talk time?
+  #   time = true
+
+  # # Configuration of publication pages.
+  # [params.publications]
+  #   # Date format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
+  #   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
+  #   date_format = "January, 2006"
+
+  # End comment
 
   # Configuration of project pages.
   [params.projects]
@@ -303,10 +309,10 @@ enableGitInfo = false
   url = "#about"
   weight = 1
 
-[[menu.main]]
-  name = "Publications"
-  url = "#publications_selected"
-  weight = 2
+# [[menu.main]]
+#   name = "Publications"
+#   url = "#publications_selected"
+#   weight = 2
 
 [[menu.main]]
   name = "Projects"
